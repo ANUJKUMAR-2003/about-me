@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family:  sans-serif;
+  text-align: center;
+  color: #40514E;
+  /*dont use size in %age or em if you define font size in body also*/
+}
+p{
+    line-height: 2;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 4.4rem;
+  /*using size in pixcels in not recommended, the size of h1 will become ststic or say it will not be changed by browser settings
+                     use size in %age or em instead :: 1em=16px=100%*/
+  /*use rem, it won't get affected by the size mentioned in body tag*/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+.first {
+  text-align: center;
+  background-color: #e0ffff;
+  padding-top: 100px;
+  margin: 0;
+  position: relative;
+}
+.second{
+  margin: 100px 0;
+}
+.skill-row {
+  /* display:inline-block; */
+  margin: 100px auto 100px auto;
+  /*this will also work same as display */
+  width: 50%;
+  text-align: left;
+
+}
+
+.third {
+  background-color: #11999E;
+  padding: 50px 0 10px;
+
+}
+
+.my-img {
+  width: 200px;
+  border-radius: 100px;
+
+}
+.chilli-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.code-img{
+  width: 200px;
+  border-radius: 100px;
+  float: right;
+  margin-right: 20px;
+
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 60px;
+}
+hr{
+  border: dotted lightgrey 6px;
+  border-bottom: none;
+  width :4%;
+  margin: 100px auto;
+}
+.intro{
+  width: 30%;
+  margin : auto;
+}
+.contact-message{
+  width:30%;
+  margin: 40px auto 60px ;
+  text-align: center;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat",Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cd;
+  background-image: -webkit-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cd, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cd, #2bc4ad);
+  text-decoration: none;
+}
+.footer-link{
+  margin: 30px 20px;
+  color: #11CDD4;
+  font-family: "Montserrat",Arial;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color:#EaF6F6;
+}
+.copyright{
+  color:#eaf6f6;
+  font-size: 0.75rem;
+}
